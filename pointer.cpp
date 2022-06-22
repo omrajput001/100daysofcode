@@ -4,17 +4,17 @@ class demo{
 	public:
 		void show()
 		{
-			cout<<"\n hii";
+			cout<<"hii"<<endl;
 		}
 		void show1()
 		{
-			cout<<"\n hello";
+			cout<<"hello"<<endl;
 		}
 };
 int main(){
 demo obj;
 demo *ptr=&obj;
-ptr->show();
-ptr->show1();
+obj.show();
+obj.show1();
 return 0;
 }
